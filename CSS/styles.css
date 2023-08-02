@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ---------------------------------------- NAVBAR SECTION ---------------------------------------- */
+
+.nav .nav-item a {
+    color: #497174;
+}
+
+.fixed {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show >.nav-link {
+    background-color: #EB6440 !important;
+    }
+/* ---------------------------------------- HOME SECTION (HEROE) ---------------------------------------- */
+
+/* BACKGROUND COLOUR */
+#heroe > div {
+    background-color: #D6E4E5;
+}
+
+/* DISPLAY PICTURE */
+#heroe img {
+    border-radius: 50%;
+}
+
+/* ----------------------------------------  EDUCATION SECTION (JUMBOTRON) ---------------------------------------- */
+
+/* EDUCATION TABLE */
+
+.titles {
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: #D6E4E5;
+}
+
+/* ----------------------------------------  WORK EXPERIENCE (JUMBOTRON) ---------------------------------------- */
+
+#work-experience > div {
+    background-color: #D6E4E5;
+}
+
+li {
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    li {
+        text-align: justify;
+        font-size: 1rem;
+        padding-right: 15px;
+    }
+}
+
+/* ----------------------------------------  ABOUT ME (JUMBOTRON) ---------------------------------------- */
+
+
+/* ----------------------------------------  CONTACT ME (JUMBOTRON) ---------------------------------------- */
+
+#contact-me {
+    background-color: #D6E4E5;
+
+}
+
+/* button {
+    background-color: #EB6440 !important;
+    color: white !important;
+} */
+
+.contact-me-info {
+    background-color: white !important;
+    border-radius: 5px;
+}
