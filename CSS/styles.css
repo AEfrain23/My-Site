@@ -52,6 +52,33 @@ body {
     background-color: #D6E4E5;
 }
 
+.p-left {
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .p-left {
+        text-align: justify;
+        font-size: 1rem !important;
+        padding-right: 15px;
+    }
+}
+
+p {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    p {
+        font-size: 1rem !important;
+    }
+}
+
+
+ul {
+    padding-left: 15px !important;
+}
+
 li {
     text-align: justify;
 }
@@ -60,7 +87,7 @@ li {
     li {
         text-align: justify;
         font-size: 1rem;
-        padding-right: 15px;
+        /* padding-right: 15px; */
     }
 }
 
