@@ -83,7 +83,7 @@ body {
     .mobile-navbar-toggle {
         display: block;
         padding: 0;
-        height: 1.5rem;
+        height: 1.25rem;
         aspect-ratio: 1080 / 595;
         /* This is the width / height in pixels. */
         z-index: 9999;
@@ -114,7 +114,7 @@ body {
     .mobile-navbar-toggle {
         display: block;
         position: absolute;
-        right: 2rem;
+        right: 1.5rem;
         top: 2rem;
     }
 
