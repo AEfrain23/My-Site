@@ -141,10 +141,25 @@ body {
 
 .titles {
     font-weight: bold;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
 }
+
+@media (max-width: 600px) {
+    .titles {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        font-size: 1rem !important;
+    }
+}
+
 
 .highlight {
     background-color: #D6E4E5;
+}
+
+p {
+    margin: 0.25rem !important;
 }
 
 /* ----------------------------------------  WORK EXPERIENCE (JUMBOTRON) ---------------------------------------- */
