@@ -8,7 +8,7 @@ body {
 .navbar-container {
     height: 5rem;
     width: 100%;
-    background-color: white;
+    background-color: #EFF5F5;
     position: fixed;
 }
 
@@ -135,6 +135,12 @@ body {
     border-radius: 50%;
 }
 
+/* NAME TITLE */
+
+.name-title {
+    color: #497174 !important;
+}
+
 /* ----------------------------------------  EDUCATION SECTION (JUMBOTRON) ---------------------------------------- */
 
 /* EDUCATION TABLE */
@@ -160,11 +166,17 @@ p {
     margin: 0.25rem 0 !important;
 }
 
-/* ----------------------------------------  WORK EXPERIENCE (JUMBOTRON) ---------------------------------------- */
+/* ----------------------------------------  PORTFOLIO (JUMBOTRON) ---------------------------------------- */
 
-#work-experience>div {
+#website-portfolio {
     background-color: #D6E4E5;
 }
+
+.white-highlight {
+    background-color: white;
+}
+
+/* ----------------------------------------  WORK EXPERIENCE (JUMBOTRON) ---------------------------------------- */
 
 .p-left {
     text-align: justify;
@@ -207,20 +219,25 @@ li {
 
 /* ----------------------------------------  ABOUT ME (JUMBOTRON) ---------------------------------------- */
 
+#about-me {
+    background-color: #D6E4E5;
+}
 
 /* ----------------------------------------  CONTACT ME (JUMBOTRON) ---------------------------------------- */
-
-#contact-me {
-    background-color: #D6E4E5;
-
-}
 
 /* button {
     background-color: #EB6440 !important;
     color: white !important;
 } */
 
-.contact-me-info {
-    background-color: white !important;
+.contact-container {
+    background-color: #EFF5F5;
     border-radius: 5px;
+}
+
+
+/* ----------------------------------------  FOOTER (JUMBOTRON) ---------------------------------------- */
+
+.footer-section {
+    background-color: #EFF5F5;
 }
