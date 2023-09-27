@@ -106,7 +106,7 @@ body {
 @media (max-width: 576px) {
     
     .navbar-container {
-        height: 4rem;
+        height: 3.5rem;
     }
 
     #navbar {
@@ -118,8 +118,8 @@ body {
     .mobile-navbar-toggle {
         display: block;
         position: absolute;
-        right: 1.5rem;
-        top: 1.5rem;
+        right: 1.25rem;
+        top: 1.25rem;
     }
 
     #navbar button {
