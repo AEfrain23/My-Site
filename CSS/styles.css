@@ -108,10 +108,13 @@ body {
     .navbar-container {
         height: 3.5rem;
     }
+    .navbar-container a {
+        padding: 1.25rem;
+    }
 
     #navbar {
         justify-content: flex-start;
-        inset: 5rem 0 0 0px;
+        inset: 56px 0 0 0px;
         padding: 0 0 0 0 !important;
     }
 
