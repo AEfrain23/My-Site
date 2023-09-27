@@ -88,7 +88,7 @@ body {
         /* This is the width / height in pixels. */
         z-index: 9999;
         border: none;
-        background: url("/ProperFix-Site/images/hamburger-icon-black.png");
+        background: url("/My-Site/images/hamburger-icon-black.png");
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
