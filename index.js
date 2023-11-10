@@ -1,14 +1,16 @@
-const navbarButton = document.querySelector("navbar");
-const navbarToggle = document.querySelector("mobile-navbar-toggle");
+const navbarMenu = document.querySelector(".menu-options");
+const navbarToggle = document.querySelector(".mobile-navbar-toggle");
 
-document.querySelector("button").addEventListener("click", function () {
-    document.querySelector("#navbar").classList.toggle("hide");
+navbarToggle.addEventListener("click", () => {
+    const visibility = navbarMenu.getAttribute("data-visible");
+    if (visibility === "true") {
+        navbarMenu.setAttribute("data-visible", false);
+        navbarToggle.setAttribute("aria-expanded", false);
+    } else if (visibility === "false") {
+        navbarMenu.setAttribute("data-visible", true);
+        navbarToggle.setAttribute("aria-expanded", true);
+    }
 });
-
-$(".btn").click(function () {
-    document.querySelector("#navbar").classList.toggle("hide");
-});
-
 
 
 // IMAGE SELECTION FOR ALBUM SECTION:
