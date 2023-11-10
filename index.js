@@ -13,4 +13,13 @@ navbarToggle.addEventListener("click", () => {
 });
 
 
-// IMAGE SELECTION FOR ALBUM SECTION:
+
+// Using JQuery in order to hide the navbar options when ANY are pressed. (querySelectorAll not work?)
+$(".btn").click(() => {
+    const visibility = navbarMenu.getAttribute("data-visible");
+    if (visibility === "true") {
+        navbarMenu.setAttribute("data-visible", false);
+        navbarToggle.setAttribute("aria-expanded", false);
+    }
+});
+
