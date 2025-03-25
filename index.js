@@ -1,3 +1,4 @@
+
 const navbarMenu = document.querySelector(".menu-options");
 const navbarToggle = document.querySelector(".mobile-navbar-toggle");
 
